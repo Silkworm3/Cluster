@@ -11,7 +11,7 @@ metadata:
   namespace: jx
   annotations:
     wave.pusher.com/update-on-config-change: 'true'
-    jenkins-x.io/hash: '715869e9e91a90e5717a42b5b996cf284a1baf2d4618a37a3c454d0e5b714251'
+    jenkins-x.io/hash: '80fb979fd8033ac37292347751bea73497e23896db9cb0e6030e46a3acdd781d'
 spec:
   replicas: 1
   selector:
@@ -32,7 +32,7 @@ spec:
           imagePullPolicy: IfNotPresent
           args:
             - --namespace=jx
-            - --dashboard-url=http://dashboard-jx.aad3d3fac9c064944ba57bdd1649ce87-b8215846b1dcc3c0.elb.us-east-1.amazonaws.com
+            - --dashboard-url=http://dashboard-jx.jenkinsxhackathon.co.uk
             - --dashboard-template=namespaces/{{ .Namespace }}/pipelineruns/{{ .PipelineRun }}
           ports:
             - name: metrics
