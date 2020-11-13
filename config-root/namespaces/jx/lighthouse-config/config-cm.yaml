@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - Silkworm3/Cluster
-      target_url: http://dashboard-jx.
+      target_url: http://dashboard-jx.aad3d3fac9c064944ba57bdd1649ce87-b8215846b1dcc3c0.elb.us-east-1.amazonaws.com
 kind: ConfigMap
 metadata:
   creationTimestamp: null
