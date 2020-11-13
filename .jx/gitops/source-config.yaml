@@ -9,4 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: project-3
+    - name: project-4
     scheduler: in-repo
