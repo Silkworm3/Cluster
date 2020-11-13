@@ -9,6 +9,7 @@ data:
       enabled:
         Silkworm3/Cluster: true
         Silkworm3/project-3: true
+        Silkworm3/project-4: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         Silkworm3/Cluster: merge
         Silkworm3/project-3: merge
+        Silkworm3/project-4: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - Silkworm3/Cluster
         - Silkworm3/project-3
+        - Silkworm3/project-4
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - Silkworm3/Cluster
         - Silkworm3/project-3
+        - Silkworm3/project-4
       target_url: http://dashboard-jx.aad3d3fac9c064944ba57bdd1649ce87-b8215846b1dcc3c0.elb.us-east-1.amazonaws.com
 kind: ConfigMap
 metadata:
