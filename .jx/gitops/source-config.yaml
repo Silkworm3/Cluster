@@ -11,4 +11,5 @@ spec:
     - name: project-3
     - name: project-4
     - name: project-5
+    - name: project-6
     scheduler: in-repo
