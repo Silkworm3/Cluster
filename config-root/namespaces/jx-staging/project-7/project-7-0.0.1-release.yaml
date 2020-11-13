@@ -1,0 +1,26 @@
+# Source: project-7/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-11-13T18:11:06Z"
+  deletionTimestamp: null
+  name: 'project-7-0.0.1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author: {}
+      branch: master
+      committer: {}
+      message: |
+        chore: Jenkins X build pack
+      sha: d69ea1a77e3eccc0b21baaece2d1b48eaae13292
+  gitCloneUrl: https://github.com/Silkworm3/project-7.git
+  gitHttpUrl: https://github.com/Silkworm3/project-7
+  gitOwner: Silkworm3
+  gitRepository: project-7
+  name: 'project-7'
+  releaseNotesURL: https://github.com/Silkworm3/project-7/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}
