@@ -33,7 +33,7 @@ jxRequirements:
     repository: Cluster
   - ingress:
       domain: ""
-      externalDNS: false
+      externalDNS: true
       namespaceSubDomain: ""
       tls:
         email: ""
@@ -51,7 +51,7 @@ jxRequirements:
     key: production
   gitops: true
   ingress:
-    domain: jenkinsxhackathon.co.uk
+    domain: aad3d3fac9c064944ba57bdd1649ce87-b8215846b1dcc3c0.elb.us-east-1.amazonaws.com
     externalDNS: true
     namespaceSubDomain: -jx.
     tls:
