@@ -10,4 +10,5 @@ spec:
     repositories:
     - name: project-3
     - name: project-4
+    - name: project-5
     scheduler: in-repo
