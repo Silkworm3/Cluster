@@ -16,4 +16,4 @@ spec:
               serviceName: nexus
               servicePort: 80
             path: "/"
-      host: nexus-jx.aad3d3fac9c064944ba57bdd1649ce87-b8215846b1dcc3c0.elb.us-east-1.amazonaws.com
+      host: nexus-jx.jenkinsxhackathon.co.uk
