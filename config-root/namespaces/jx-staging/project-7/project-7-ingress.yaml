@@ -1,0 +1,18 @@
+# Source: project-7/templates/ingress.yaml
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: project-7
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  rules:
+    - http:
+        paths:
+          - backend:
+              serviceName: project-7
+              servicePort: 80
+      host: project-7-jx-staging.jenkinsxhackathon.co.uk

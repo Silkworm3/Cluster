@@ -1,0 +1,8 @@
+# Source: project-7/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: project-7-project-7
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
