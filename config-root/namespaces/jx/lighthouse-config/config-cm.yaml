@@ -12,6 +12,7 @@ data:
         Silkworm3/project-4: true
         Silkworm3/project-5: true
         Silkworm3/project-6: true
+        Silkworm3/project-7: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -28,6 +29,7 @@ data:
         Silkworm3/project-4: merge
         Silkworm3/project-5: merge
         Silkworm3/project-6: merge
+        Silkworm3/project-7: merge
       queries:
       - labels:
         - approved
@@ -43,6 +45,7 @@ data:
         - Silkworm3/project-4
         - Silkworm3/project-5
         - Silkworm3/project-6
+        - Silkworm3/project-7
       - labels:
         - updatebot
         missingLabels:
@@ -57,6 +60,7 @@ data:
         - Silkworm3/project-4
         - Silkworm3/project-5
         - Silkworm3/project-6
+        - Silkworm3/project-7
       target_url: http://dashboard-jx.jenkinsxhackathon.co.uk
 kind: ConfigMap
 metadata:
